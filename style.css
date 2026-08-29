@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {    
+    background-color: #f0f0f0;
+    font-family: Arial;
+}
+
+h1 {
+    color: darkblue;
+}
+
+p {
+    color: gray;
+    font-size: 18px;
+}
+
+.photo-box {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 20px;    
+    border: 2px solid blue;
+    object-fit: cover;
+}    
+
+.content-row {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}    
+
+a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(0, 255, 234);
+    text-decoration: underline;
+}    
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    background-color: black;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: rgb(0, 17, 255)
+}  
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .content-row {
+        flex-direction: column;
+    }
+    
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}        
