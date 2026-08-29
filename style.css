@@ -83,5 +83,8 @@ a:hover {
     
     .project-grid {
         grid-template-columns: 1fr;
-    }
-}        
+    }         
+
+.services-grid {
+    grid-template-columns: 1fr;
+}
