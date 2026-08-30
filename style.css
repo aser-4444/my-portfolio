@@ -87,4 +87,20 @@ a:hover {
 
 .services-grid {
     grid-template-columns: 1fr;
+    }
+}
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+body.dark-mode .navbar {
+    background-color: black;
+}
+
+body.dark-mode .project-card,
+body.dark-mode .service-card {
+    background-color: #1a1a1a;
+    color: white;
 }
