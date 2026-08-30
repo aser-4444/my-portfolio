@@ -120,3 +120,8 @@ body.dark-mode .service-card {
     transform: translateY(-5px);
     box-shadow: 0 6px 16px rgba(0,0,0,0.25);
 }
+
+#contact a {
+    color: darkblue;
+    font-weight: bold;
+}
