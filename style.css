@@ -125,3 +125,19 @@ body.dark-mode .service-card {
     color: darkblue;
     font-weight: bold;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+footer a {
+    color: lightblue;
+}
+
+body.dark-mode footer {
+    background-color: #1a1a1a;
+}
