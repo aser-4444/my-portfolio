@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    color: darkblue;
+    color: rgb(7, 7, 231);
 }
 
 p {
@@ -22,7 +22,7 @@ p {
     height: 150px;
     border-radius: 10px;
     margin: 20px;    
-    border: 2px solid blue;
+    border: 2px solid rgb(0, 119, 255);
     object-fit: cover;
 }    
 
@@ -33,13 +33,13 @@ p {
 }    
 
 a {
-    color: rgb(0, 65, 139);
+    color: rgb(9, 82, 240);
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: rgb(0, 68, 255);
+    color: rgb(0, 204, 255);
     text-decoration: underline;
 }    
 
@@ -56,7 +56,7 @@ a:hover {
 }
 
 .navbar a:hover {
-    color: rgb(0, 17, 255)
+    color: rgb(0, 217, 255)
 }  
 
 .projects-grid {
@@ -122,7 +122,7 @@ body.dark-mode .service-card {
 }
 
 #contact a {
-    color: darkblue;
+    color: rgb(8, 220, 228);
     font-weight: bold;
 }
 
