@@ -104,3 +104,11 @@ body.dark-mode .service-card {
     background-color: #1a1a1a;
     color: white;
 }
+
+#darkModeBtn {
+    padding: 5PX 10PX;
+    font-size: 12PX;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
