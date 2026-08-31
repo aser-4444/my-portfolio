@@ -55,6 +55,14 @@ a:hover {
     font-weight: bold;
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    padding: 15px;
+}
+
 .navbar a:hover {
     color: rgb(0, 217, 255)
 }  
@@ -74,9 +82,18 @@ a:hover {
 }
 
 @media (max-width: 600px) {
-    .navbar {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
         flex-direction: column;
-        gap: 10px;
+        width: 100%;
+    }
+
+    .nav-links .active  {
+        display: flex;
     }
     
     .content-row {
@@ -140,4 +157,14 @@ footer a {
 
 body.dark-mode footer {
     background-color: #1a1a1a;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: rgb(248, 248, 248);
+    cursor: pointer;
+    margin-right: 15px;
 }
