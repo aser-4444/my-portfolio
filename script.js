@@ -1,11 +1,20 @@
 const btn = document.getElementById("darkModeBtn");
+const hamburger = document.getElementById("hamburgerBtn");
+const navLinks = document.getElementById("navLinks");
+
+if (localStorage.getItem("darkMode") === "on") {
+    document.body.classList.add("dark-mode");
+}
 
 btn.addEventListener("click", function() {
     document.body.classList.toggle("dark-mode");
-});
 
-const humburger = document.getElementById("hamburgerBtn");
-const navLinks = document.getElementById("navLinks");
+    if (document.body.classList.contains("dark-mode")) {
+        localStorage.setItem("darkMode", "on");
+    } else {
+        localStorage.setItem("darkMode", "off");
+    }
+});
 
 hamburger.addEventListener("click", function() {
     navLinks.classList.toggle("active");
